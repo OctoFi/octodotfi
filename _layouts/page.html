@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+	{% unless page.url contains '/download' %}
+  <div class="page-head">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+  {% endunless %}
+</div>
+
+{% if page.image %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page-image">
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- begin page -->
+<div class="container">
+  <article class="page animate">
+
+    <div class="page__content">
+      {{ content }}
+    </div>
+
+  </article>
+</div>
+<!-- end page -->

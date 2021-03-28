@@ -1,0 +1,43 @@
+---
+layout: default
+title: Referral Partners
+description: We get paid commission when you transact with our partners, through our <span class="text-span post__content"><a href="//app.octo.fi" target="_blank">dapp</a></span> or directly when using our <span class="text-span post__content"><a href="/download">wallet</a></span>. We then pay 40% to you and the remaining 60% to <span class="text-span post__content"><a href="/dyor#token">token</a></span> holders.
+---
+<div class="container">
+  <div class="page-head">
+    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.projects__settings.projects__title }}{% endif %}</h1>
+    {% if page.description %}
+      <p class="page-description">{{ page.description }}</p>
+    {% else site.data.settings.projects__settings.projects__description %}
+      <p class="page-description">{{ site.data.settings.projects__settings.projects__description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
+    {% for project in site.projects reversed %}
+      <article class="project col col-4 col-d-6 col-t-12">
+        <div class="project__content">
+		  {% if project.external_url %}
+			<a href="{{ project.external_url }}" class="project__image" target="_blank">
+			{% else %}
+			<a href="{{ project.url }}" class="project__image">
+			{% endif %}
+            <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+          <div class="project__info">
+            <div class="project__info-wrap">
+              <h4 class="project__title">{{ project.title }}</h4>
+            </div>
+            <div class="project__info-wrap">
+              {% if project.subtitle %}
+                <div class="project__subtitle">{{ project.subtitle }}</div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
