@@ -9,10 +9,10 @@ menu__settings:
   menu__items:
     - title: 'About'
       url: '/dyor'
+    - title: 'Manifesto'
+      url: '/manifesto'
     - title: 'Project'
       submenu:
-      - url: '/manifesto'
-        title: 'Manifesto'
       - url: '/roadmap'
         title: 'Roadmap'
       - url: '/changelog'
@@ -21,8 +21,6 @@ menu__settings:
         title: 'GitHub'
     - title: 'Support'
       submenu:
-      - url: '/dyor'
-        title: 'Start Here'
       - external_url: 'https://t.me/OctoFi'
         title: 'Telegram'
       - external_url: 'https://den.octo.fi'
@@ -30,7 +28,8 @@ menu__settings:
     - title: 'Blog'
       url: '/blog'
 # Call to action button
-cta__button__text: Get Started
+cta__button__text: Launch dApp
+cta__button__url: 'https://app.octo.fi'
 
 # Add global cover image (This field adds a background to the top and bottom of the site.)
 cover__image: '/images/37.jpg'
@@ -42,10 +41,13 @@ cover__image: '/images/37.jpg'
 author:
   name: Dr. Octavius
   title: Crypto cashbacks for DeFi and NFT
-  bio: OctoFi gives you cash back when you transact with trusted DeFi and NFT marketplaces, across multiple blockchains, through our all-in-one <span class="text-span post__content"><a href="https://app.octo.fi">dapp</a></span> or browser-plugin <span class="text-span post__content"><a href="/download">wallet</a></span>.
+  bio: OctoFi gives you cash back when you transact with trusted DeFi and NFT marketplaces, across multiple blockchains, through our all-in-one <span class="text-span post__content"><a href="https://app.octo.fi" target="_blank">dApp</a></span> or browser-plugin <span class="text-span post__content"><a href="/dyor#wallet">Wallet</a></span>.
   image: '/images/octofi-dapp.png'
   avatar: '/images/avatar.jpg'
-  button__text: Get Started
+  button__text: Launch dApp
+  button__url: 'https://app.octo.fi'
+  small__button__text: Learn more
+  small__button__url: '/dyor'
 
 
 #-------------------------------
@@ -53,7 +55,7 @@ author:
 
 projects__settings:
   projects__title: Referral <span class="text-span">partners</span> # Add a 'text-span' class to highlight text.
-  projects__description: We get paid commission when you transact with our partners, through our <span class="text-span post__content"><a href="//app.octo.fi" target="_blank">dapp</a></span> or directly when using our <span class="text-span post__content"><a href="/download">wallet</a></span>. 40% goes to you. 60% to <span class="text-span post__content"><a href="/dyor#token">token</a></span> holders.
+  projects__description: We get paid commission when you transact with our partners, through our <span class="text-span post__content"><a href="//app.octo.fi" target="_blank">dApp</a></span> or directly when using our <span class="text-span post__content"><a href="/dyor#wallet">Wallet</a></span>. 40% goes to you. 60% to <span class="text-span post__content"><a href="/dyor#token">token</a></span> holders.
   
   
 
@@ -94,12 +96,11 @@ blog__settings:
 
 
 #-------------------------------
-# Newsletter Settings
-mailchimp__settings:
-  mailchimp__title: <span class="text-span">Free Crypto.</span> Octomatically. # Add your title
-  mailchimp__text: # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
-  mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-  mailchimp__button__text: Get Started # Add your button text
+# CTA Settings
+calltoaction__settings:
+  calltoaction__title: <span class="text-span">Free Crypto.</span> Octomatically.
+  calltoaction__button__text: Launch dApp 
+  calltoaction__button__url: 'https://app.octo.fi'
 
 
 #-------------------------------
@@ -109,7 +110,7 @@ disqus-identifier: # add your shortname for Disqus Comment. For example anvodstu
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-175900160-1 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------

@@ -4,8 +4,6 @@ title: The Tentacult Manifesto
 image: '/images/28.jpg'
 ---
 
-***
-
 OctoFi exists because of eight guiding principles. Without them we lose sight of the cypherpunk ethos that birthed a grassroots movement in pursuit of decentralization. We are witnessing the change we all set out to make. So consider this a pledge to see that change through.
 
 ## Open-source everything

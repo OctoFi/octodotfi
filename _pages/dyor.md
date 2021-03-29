@@ -8,7 +8,7 @@ image:
 
 Our cashback mechanism is built into: 
 
-1. **<span class="text-span">OctoFi Dapp:</span>** an all-in-one decentralized application serving up direct access to a broad range of DeFi and NFT marketplaces from one convenient location.
+1. **<span class="text-span">OctoFi dApp:</span>** an all-in-one decentralized application serving up direct access to a broad range of DeFi and NFT marketplaces from one convenient location.
 2. **<span class="text-span">OctoFi Wallet:</span>** a fork of MetaMask with lower built-in swap fees, support for various networks by default, essential NFT features, and removal of all user tracking.
 3. **<span class="text-span">OctoFi Token:</span>** an ERC-20 on the Etherum network, OCTO is used to govern the project, unlock exclusive features, and earn your share of revenue.
 
@@ -34,7 +34,7 @@ But we're crypto native and with over $1 trillion in value settled on the Ethere
 
 We endeavour to accelerate growth for our referral partners while embracing a multi-chain future, so it's fair to say every effort is being made to expand [our partner network](/partners) to ensure our products are useful NOW, and well into the future...
 
-- **Dapp:** bookmark or install as a progressive web app (PWA) even if you prefer to use another wallet (eg. We direct 2.5% cashback from OpenSea to token holders).
+- **dApp:** bookmark or install as a progressive web app (PWA) even if you prefer to use another wallet (eg. We direct 2.5% cashback from OpenSea to token holders).
 - **Wallet:** simply install it and reap the rewards when using it on our dapp or one of our partner sites (eg. Get 1% cashback when you purchase any NFT on OpenSea).
 - **Token:** purchase the OCTO token to gain access to exclusive features, participate in governance, and earn your share of all revenue from the wallet and dapp.
 
@@ -69,7 +69,7 @@ Furthermore, in March 2021 a council of eight members were elected to steward Oc
 
 See below for more information about our dapp, wallet, and token.
 
-### 1. Dapp ([<span class="text-span">app.octo.fi</span>](https://app.octo.fi))
+### 1. <span class="text-span">dApp</span> ([app.octo.fi](https://app.octo.fi))
 
 OctoFi's core value proposition is giving you cash back when you transact with the most trusted marketplaces in DeFi, NFT, and beyond. Our dapp is our flagship product and provides a user friendly entry point for newcomers to get familiar with crypto.
 
@@ -98,19 +98,26 @@ We run entirely on a [static site](https://www.netlify.com/blog/2016/05/18/9-rea
 | Launchpad Private Sale (Service) | 2% of funds raised | Discount (req. OCTO lock) |
 | New Asset Listing (Service) | 8,888 USDC | Discount (req. OCTO lock) |
 
+<div id="wallet"></div>
 <div id="token"></div>
 
 Revenue is derived from native platform fees, partner referral commissions, and project capital deployments. Please note fee structure is subject to change. Refer to [OIP-17](https://den.octo.fi/d/162-oip-17-platform-fees-distribution) for more information.
 
-### 2. Wallet ([<span class="text-span">/download</span>](/download))
+### 2. <span class="text-span">Wallet</span> (coming *very* soon)
 
-[Download our wallet](/download) and start transacting with our [referral partners](/partners) to earn cashbacks.
+Download our wallet and start transacting with our [referral partners](/partners) to earn cashbacks.
+
+![](/images/36.jpg)
+
+[Join our Telegram](https://t.me/OctoFi) to be the first to know when it's ready.
 
 Now it's time to Do Your Octo Research \#DYOR
 
-### 3. Token ([<span class="text-span">OCTO</span>](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3))
+### 3. <span class="text-span">Token</span> ([OCTO](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3))
 
 The OCTO token is used to govern the project, unlock exclusive features, and to distribute ALL revenue. You can purchase it on [Uniswap](https://uni.octo.fi) or directly from [OctoFi](https://app.octo.fi/#/swap/uni), but always check the token contract address ([0X7240...2BA3](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3)) first.
+
+![](/images/octoskid.jpg)
 
 Here's what you can do with your $OCTO right now:
 
@@ -171,6 +178,8 @@ Before taking a deep dive, it's worth having a quick look at these.
 - [OctoFi Project Overview by TMod_Marco](https://www.publish0x.com/tmod-marco/what-is-the-best-defi-project-out-there-why-should-i-invest-xlygywl)
 - [OctoFi featured on YouTube by Chico Crypto](https://youtu.be/v2OQP_gSd08?t=381)
 - [Crypto Daily revealing 11% of his portfolio is OCTO](https://www.youtube.com/watch?t=468&v=SBYvVk5-iN0&feature=youtu.be)
+
+![](/images/23.jpg)
 
 Please follow us on [Twitter](https://twitter.com/octofinance) and join our Telegram group [@OctoFi](https://t.me/OctoFi) to discuss the project in more detail.
 

@@ -8,10 +8,10 @@
           <div class="author__left">
             <h1 class="author__name">{{ site.data.settings.author.title }}</h1>
             <p class="author__bio">{{ site.data.settings.author.bio }}</p>
-            <a class="button button--small" style="margin-top: 28px; margin-right: 14px;" href="/download">
+            <a class="button button--small" style="margin-top: 28px; margin-right: 14px;" href="{{ site.data.settings.cta__button__url }}" target="_blank">
               {{ site.data.settings.author.button__text }} 
             </a>
-             <a href="/dyor" class="author__btn">Learn more</a>
+             <a href="{{ site.data.settings.author.small__button__url }}" class="author__btn">{{ site.data.settings.author.small__button__text }}</a>
 				
           </div>
 
