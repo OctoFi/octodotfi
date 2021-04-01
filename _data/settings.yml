@@ -3,7 +3,7 @@
 
 title: OctoFi
 logo: #'/images/logo.png'
-description: Crypto cashbacks for DeFi and NFT
+description: All-in-one DeFi and NFT with cashbacks
 
 menu__settings:
   menu__items:
@@ -40,7 +40,7 @@ cover__image: '/images/37.jpg'
 
 author:
   name: Dr. Octavius
-  title: Crypto cashbacks for DeFi and NFT
+  title: All-in-one DeFi and NFT with cashbacks
   bio: OctoFi gives you cash back when you transact with trusted DeFi and NFT marketplaces, across multiple blockchains, through our all-in-one <span class="text-span post__content"><a href="https://app.octo.fi" target="_blank">dApp</a></span> or browser-plugin <span class="text-span post__content"><a href="/dyor#wallet">Wallet</a></span>.
   image: '/images/octofi-dapp.png'
   avatar: '/images/avatar.jpg'
