@@ -1,0 +1,43 @@
+---
+layout: default
+title: The Octagon
+description: Eight members were elected as <span class="text-span post__content"><a href="https://gnosis-safe.io/app/#/safes/0xcCF04146399214EB7813Ab45B50d004c5b254784/balances" target="_blank">treasury multisig</a></span> key holders. An expert advisor, community secretary, and co-founders, OG and Octavius support them.
+---
+<div class="container">
+  <div class="page-head">
+    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.team__settings.team__title }}{% endif %}</h1>
+    {% if page.description %}
+      <p class="page-description">{{ page.description }}</p>
+    {% else site.data.settings.team__settings.team__description %}
+      <p class="page-description">{{ site.data.settings.team__settings.team__description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
+    {% for member in site.team reversed %}
+      <article class="project col col-4 col-d-6 col-t-12">
+        <div class="project__content">
+		  {% if member.external_url %}
+			<a href="{{ member.external_url }}" class="project__image" target="_blank">
+			{% else %}
+			<a href="{{ member.url }}" class="project__image">
+			{% endif %}
+            <img class="lazy" data-src="{{ member.image }}" alt="{{ member.title }}">
+          </a>
+          <div class="project__info">
+            <div class="project__info-wrap">
+              <h4 class="project__title">{{ member.title }}</h4>
+            </div>
+            <div class="project__info-wrap">
+              {% if member.subtitle %}
+                <div class="project__subtitle">{{ member.subtitle }}</div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>

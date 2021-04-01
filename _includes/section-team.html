@@ -1,0 +1,49 @@
+<!-- begin projects -->
+<section class="section projects" id="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="contaniner__inner animate">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">{{ site.data.settings.team__settings.team__title }}</h2>
+              <a class="section__link" href="/team">View all <i class="ion ion-md-arrow-forward"></i></a>
+            </div>
+            {% if site.data.settings.team__settings.team__description %}
+              <p class="section__description">{{ site.data.settings.team__settings.team__description }}</p>
+            {% endif %}
+          </div>
+
+          <div class="row">
+            {% for member in site.team reversed limit:12 %}
+            <article class="project col col-3 col-d-8 col-t-12">
+              <div class="project__content">
+				{% if member.external_url %}
+				<a href="{{ member.external_url }}" class="project__image" target="_blank">
+				{% else %}
+                <a href="{{ member.url }}" class="project__image">
+				{% endif %}
+                  <img class="lazy" data-src="{{ member.image }}" alt="{{ member.title }}">
+                </a>
+                <div class="project__info">
+                 <div class="project__info-wrap">
+                    <h3 class="project__title">{{ member.title }}</h3>
+                  </div>
+                  <div class="project__info-wrap">
+                    {% if member.subtitle %}
+                      <div class="project__subtitle">{{ member.subtitle }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end projects -->

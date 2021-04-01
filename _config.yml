@@ -28,6 +28,9 @@ collections:
   projects:
     output: true
     permalink: /partner/:slug
+  team:
+    output: true
+    permalink: /member/:slug  
 
 # Pages Path
 defaults:
@@ -50,6 +53,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "member"
 
 
 # Tags
