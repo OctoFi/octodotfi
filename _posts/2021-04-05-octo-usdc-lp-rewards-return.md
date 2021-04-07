@@ -1,9 +1,9 @@
 ---
 layout: post
-title: OCTO-USDC Liquidity Provider (LP) rewards are back!
+title: OCTO-USDC Liquidity Provider rewards are back!
 date: 2021-04-05 08:08:08 
 author: doc
-image: '/images/32.jpg'
+image: '/images/40.jpg'
 ---
 
 Following up on our successful Liquidity Provider (LP) mining program, we're happy to announce that OCTO-USDC farming is back! You can aquaFarm $OCTO by providing liquidity on Uniswap ([OCTO-USDC](https://info.uniswap.org/pair/0x1B87FDE6aF5396165fdADf7f532784622A824Abf)) and [staking your LP tokens](https://farm.unicrypt.network/farms?token=0x7240aC91f01233BaAf8b064248E80feaA5912BA3) via Unicrypt. Early birds can stake their LP tokens right now!

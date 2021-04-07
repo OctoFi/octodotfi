@@ -161,8 +161,8 @@ Launch distribution was done using bonding curve public sale completed on 14 Sep
 New users commonly ask about certain addresses with larger holdings ([view all holders here](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3#balances)) which are detailed below.
 
 - [Token Profile](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3)
-- [Project Reserve (locked)](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3?a=0xdbf72370021babafbceb05ab10f99ad275c6220a)
-- [Interest Program Fund](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3?a=0xb51d93791e19d8cf1fdf1851aa97e7695a9135c0)
+- [Gnosis Safe Multisig (Octagon)](https://etherscan.io/tokenholdings?a=0xcCF04146399214EB7813Ab45B50d004c5b254784)
+- [Locked Treasury and Liquidity](https://etherscan.io/tokenholdings?a=0xdbf72370021babafbceb05ab10f99ad275c6220a&q=octo)
 - [Uniswap Liquidity (OCTO-USDC)](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3?a=0x1b87fde6af5396165fdadf7f532784622a824abf)
 - [Uniswap Liquidity (OCTO-ETH)](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3?a=0xd7cfbcadaaf6475321cfcf3884f15a93400be658)
 - [Project Reserve (deployer)](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3?a=0xd06777d9b02f677214073cc3c5338904cba7894a)
