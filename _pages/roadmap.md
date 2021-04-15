@@ -4,31 +4,41 @@ title: Development Roadmap
 image:
 ---
 
-### 🚧 IN PROGRESS Q1 \#Marching 2021
+### 🚧 IN PROGRESS April 2021
 
-- [ ] Launchpad (Decentralized VC)
-- [ ] Broswer extension wallet with cashbacks
-- [ ] Additional NFT analysis features integration
-- [ ] Platform mirrors for decentralized as possible deployment
+- [ ] Browser extension wallet with cashbacks 
 - [ ] Add crypto off-ramp Gold / Cars / Watches / Travel / Charity Donation / Fiat / P2P
-- [ ] Add platform data: Total Volume, TVL,  Total TXs, Fees accumulated , Platform transparency dashboard
-- [ ] Unwrap WBTC / are there other wrapped assets
+- [ ] CrossChain Swap and Bridges 
 
-### ⏳ COMING SOON Q2 \#Appril 2021
+### ⏳ COMING SOON Q2 2021
 
-- [ ] Desktop App for Linux, Microsoft, OSX
-- [ ] Manage addresses without connecting with a wallet (Offline) 
-- [ ] Desktop App Node functions to support the network and build a better P2P feeling
-- [ ] ETH 2.0 Pool Staking 
+- [ ] Browser Extension updates (OctoFi Wallet)
+- [ ] More Aggregator options
+- [ ] NFT Launchpad
 
-### ⏳ COMING SOON Q2 \#May 2021
+### ⏳ COMING SOON Q3 2021
 
-- [ ] CrossChain Spot Trading and Swap
-- [ ] Final implementation of a gas-less or gas reducing solution. 
-- [ ] Combined wallets view 
+- [ ] Manage addresses without connecting with a wallet (Offline)
+- [ ] Add platform data: Total Volume, TVL, Total TXs, Fees accumulated, Platform transparency dashboard
+- [ ] NFT Launchpad improvements
+
+### ⏳ COMING SOON Q4 2021
+
+- [ ] Improvements for CrossChain trades/swaps 
+- [ ] Hopefully L2 options like Optimism if live
 - [ ] OTC On-Chain Swap Solution (Escrow)
 
 ***
+
+### ✅ COMPLETE Q1 \#Marching 2021
+
+- [x] Launchpad (Decentralized VC)
+- [x] Improved Ledger Wallet integration
+- [x] Added new Exchange to Aggregator Changenow
+- [x] Dark mode by default
+- [x] Aggregator price refresh
+- [x] Added new Exchange to Aggregator Sideshift
+- [x] Dashboard charts for ERC20 Tokens and better analysis
 
 ### ✅ COMPLETE Q1 \#Feebruary 2021
 
