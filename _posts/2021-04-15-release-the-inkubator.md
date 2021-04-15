@@ -43,7 +43,7 @@ via smart contracts:
 -   [PresaleGenerator01.sol](https://etherscan.io/address/0x9b2a97f5495a66074c3a6b0f4dbfe4ff9c0a78bf#code)
 -   [Presale01.sol](https://etherscan.io/address/0x7ed247ee654e686a607a004da814fcea9f5321b7#code)
 
-## INKubtor Details
+## INKubator Details
 
 Every ILO taking place has to lock between **30% and 100%** of the raised currency (e.g ETH, DAI, etc.) as counter liquidity to the sale token. We highly recommend locking 60%+ of the raised funds, in order to create market depth from day one.
 
