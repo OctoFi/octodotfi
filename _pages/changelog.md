@@ -4,7 +4,7 @@ title: Changelog
 image:
 ---
 
-## 04.0.0 (March 03, 2021)
+## 04.0.0 (May 05, 2021)
 ### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
 - Addressed findings from Certik and Bramah audits
 - Bug fixes and performance improvements
