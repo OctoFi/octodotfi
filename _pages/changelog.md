@@ -4,6 +4,15 @@ title: Changelog
 image:
 ---
 
+## 04.0.0 (March 03, 2021)
+### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
+- Addressed findings from Certik and Bramah audits
+- Bug fixes and performance improvements
+- Added additional fiat off-ramp options
+- Added multi-chain connectivity
+- Added additional wallet connections
+- Added cross-chain bridges and swaps
+
 ## 03.0.0 (March 03, 2021)
 ### OctoFi DApp ([octo.fi](https://octo.fi))
 - Removed derivatives trading as API Errors been permanent with 3rd party
