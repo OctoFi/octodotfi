@@ -141,7 +141,7 @@ You can visit [hodl.octo.fi](https://hodl.octo.fi) for an up to date list of eli
 
 #### Token launch details
 
-OCTO ([0X7240...2BA3](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3)) is an [audited](https://audits.octo.fi) ERC-20 token on the Ethereum network. [LiveCoinWatch](https://www.livecoinwatch.com/price/OctoFi-OCTO) and [Coingecko](https://www.coingecko.com/en/coins/octofi) are our recommended sources for checking prices.
+OCTO ([0X7240...2BA3](https://etherscan.io/token/0x7240ac91f01233baaf8b064248e80feaa5912ba3)) is an [audited](https://audit.octo.fi) ERC-20 token on the Ethereum network. [LiveCoinWatch](https://www.livecoinwatch.com/price/OctoFi-OCTO) and [Coingecko](https://www.coingecko.com/en/coins/octofi) are our recommended sources for checking prices.
 
 - Total Supply: 800,000 OCTO (MAX)
 - Circulating Supply: ~ 350,000 OCTO (CIRC)
