@@ -4,23 +4,16 @@ title: Development Roadmap
 image:
 ---
 
-### 🚧 IN PROGRESS April 2021
+### 🚧 IN PROGRESS Q2 2021
 
 - [ ] Browser extension wallet with cashbacks 
-- [ ] Add crypto off-ramp Gold / Cars / Watches / Travel / Charity Donation / Fiat / P2P
-- [ ] CrossChain Swap and Bridges 
-
-### ⏳ COMING SOON Q2 2021
-
-- [ ] Browser Extension updates (OctoFi Wallet)
 - [ ] More Aggregator options
-- [ ] NFT Launchpad
 
 ### ⏳ COMING SOON Q3 2021
 
-- [ ] Manage addresses without connecting with a wallet (Offline)
+- [ ] Manage addresses offline
 - [ ] Add platform data: Total Volume, TVL, Total TXs, Fees accumulated, Platform transparency dashboard
-- [ ] NFT Launchpad improvements
+- [ ] NFT Launchpad
 
 ### ⏳ COMING SOON Q4 2021
 
@@ -29,6 +22,12 @@ image:
 - [ ] OTC On-Chain Swap Solution (Escrow)
 
 ***
+
+### ✅ COMPLETE Q1 April 2021
+
+- [x] Add crypto off-ramp Gold / Cars / Watches / Travel / Charity Donation / Fiat / P2P
+- [x] CrossChain Swap and Bridges
+- [x] Multi-chain connectivity 
 
 ### ✅ COMPLETE Q1 \#Marching 2021
 
