@@ -25,6 +25,8 @@ menu__settings:
         title: 'Telegram'
       - external_url: 'https://den.octo.fi'
         title: 'Forums'
+      - external_url: 'https://links.octo.fi'
+        title: 'Links'
     - title: 'Blog'
       url: '/blog'
 # Call to action button
