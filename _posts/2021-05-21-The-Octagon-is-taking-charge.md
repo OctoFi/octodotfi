@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The Octagon is taking charge: Next steps for OctoFi
+title: 'The Octagon is taking charge: Next steps for OctoFi'
 date: 2021-05-21 00:00:00 
 author: doc
-image: '/35.jpg'
+image: '/images/35.jpg'
 ---
 
 ## The Octagon is taking charge: What are the next steps for OctoFi?
