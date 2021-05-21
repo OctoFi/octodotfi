@@ -2,7 +2,7 @@
 layout: post
 title: What are Non-Fungible Tokens (NFTs)?
 date: 2021-04-06 08:08:08 
-author: doc
+author: Dr. Octavius
 image: '/images/nft-1.jpg'
 ---
 

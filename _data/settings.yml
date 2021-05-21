@@ -37,20 +37,18 @@ cta__button__url: 'https://app.octo.fi'
 cover__image: '/images/37.jpg'
 
 
-#-------------------------------
-# Author Settings
+  #-------------------------------
+# Hero Settings
 
-author:
-  name: Dr. Octavius
+hero:
   title: All-in-one DeFi and NFT with cashbacks
   bio: OctoFi gives you cash back when you transact with trusted DeFi and NFT marketplaces, across multiple blockchains, through our all-in-one <span class="text-span post__content"><a href="https://app.octo.fi" target="_blank">dApp</a></span> or browser-plugin <span class="text-span post__content"><a href="/dyor#wallet">Wallet</a></span>.
   image: '/images/octofi-dapp.png'
-  avatar: '/images/avatar.jpg'
+  imageAlt: 'OctoFi dApp'
   button__text: Launch dApp
   button__url: 'https://app.octo.fi'
   small__button__text: Learn more
   small__button__url: '/dyor'
-
 
 #-------------------------------
 # Projects Settings
@@ -78,22 +76,22 @@ testimonial__title: Team <span class="text-span">members</span> # Add a 'text-sp
 
 testimonial-items:
   - name: "Dr. Octavius"
-    image: "/images/avatar.jpg"
+    image: "/images/team/octavius.jpg"
     designation : "Co-Founder"
     content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
 
   - name: "Dr. Octavius"
-    image: "/images/avatar.jpg"
+    image: "/images/team/octavius.jpg"
     designation : "Co-Founder"
     content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
 
   - name: "Dr. Octavius"
-    image: "/images/avatar.jpg"
+    image: "/images/team/octavius.jpg"
     designation : "Co-Founder"
     content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
 
   - name: "Dr. Octavius"
-    image: "/images/avatar.jpg"
+    image: "/images/team/octavius.jpg"
     designation : "Co-Founder"
     content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
 

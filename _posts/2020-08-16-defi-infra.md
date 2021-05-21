@@ -2,6 +2,7 @@
 layout: post
 title: Infrastructure for Decentralized Finance with Tentacles
 date: 2020-08-16 00:00:00
+author: Dr. Octavius
 image: '/images/1.jpg'
 ---
 

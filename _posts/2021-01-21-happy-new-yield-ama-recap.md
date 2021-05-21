@@ -2,6 +2,7 @@
 layout: post
 title: Happy New Yield AMA Recaptopus
 date: 2021-01-21 00:08:08
+author: Dr. Octavius
 image: '/images/30.jpg'
 ---
 

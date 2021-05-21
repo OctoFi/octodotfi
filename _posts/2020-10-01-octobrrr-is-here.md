@@ -2,6 +2,7 @@
 layout: post
 title: The month of OCTOBRRR is finally here!
 date: 2020-10-03 00:00:00
+author: Dr. Octavius
 image: '/images/17.jpg'
 ---
 

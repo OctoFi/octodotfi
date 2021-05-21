@@ -2,7 +2,7 @@
 layout: post
 title: Interest Program recap and rewards claiming tutorial
 date: 2021-03-21 00:08:08
-author: doc
+author: Dr. Octavius
 image: '/images/4.jpg'
 ---
 

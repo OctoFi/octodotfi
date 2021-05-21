@@ -22,6 +22,11 @@
     <h5 class="related-title"><span>You may also like</span></h5>
     <div class="row grid">
     {% for post in site.posts %}
+      {% for member in site.team %}
+        {% if member.title == post.author %}
+          {% assign author = member %}
+        {% endif %}
+      {% endfor %}
 
       {% assign sameTagCount = 0 %}
       {% assign commonTags = '' %}
@@ -66,11 +71,11 @@
             <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 75 }}{% endif %}</p>
 
             <div class="article__meta">
-              <a href="{{site.baseurl}}/about/" class="article__author-image">
-                <img src="{{site.data.settings.author.avatar}}" alt="{{site.data.settings.author.name}}">
+              <a href="{{author.external_url}}" class="article__author-image">
+                <img src="{{author.image}}" alt="{{author.title}}">
               </a>
               <div class="article-info">
-                <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.data.settings.author.name}}</a>
+                <a href="{{author.external_url}}" class="article__author-link">{{author.title}}</a>
                 <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
               </div>
             </div>

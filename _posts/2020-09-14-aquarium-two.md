@@ -2,6 +2,7 @@
 layout: post
 title: Aquarium 002 (Post Public Sale Transparency)
 date: 2020-09-14 10:00:00
+author: Dr. Octavius
 image: '/images/10.jpg'
 ---
 

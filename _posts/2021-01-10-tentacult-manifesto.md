@@ -2,6 +2,7 @@
 layout: post
 title: Introducing The Tentacult Manifesto
 date: 2021-01-10 00:08:08
+author: Dr. Octavius
 image: '/images/28.jpg'
 ---
 

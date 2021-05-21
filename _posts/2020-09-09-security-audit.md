@@ -2,6 +2,7 @@
 layout: post
 title: Smart Contract Security Audit
 date: 2020-09-09 00:00:00
+author: Dr. Octavius
 image: '/images/9.jpg'
 ---
 

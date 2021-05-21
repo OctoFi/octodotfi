@@ -2,6 +2,7 @@
 layout: post
 title: Memes, Merch, Streams, Updates, Listings, and More!
 date: 2020-10-13 00:00:00
+author: Dr. Octavius
 image: '/images/19.jpg'
 ---
 
