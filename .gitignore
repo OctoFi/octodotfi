@@ -9,4 +9,5 @@ _drafts
 Gemfile.lock
 node_modules
 .DS_Store
+launch.json
 vendor/
