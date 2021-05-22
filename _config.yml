@@ -27,7 +27,7 @@ collections:
     permalink: /blog/:slug
   projects:
     output: true
-    permalink: /partner/:slug
+    permalink: /partners/:slug
   team:
     output: true
     permalink: /member/:slug  
