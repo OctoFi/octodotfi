@@ -41,7 +41,7 @@ collections:
     permalink: /partners/:slug
   team:
     output: true
-    permalink: /member/:slug  
+    permalink: /team/:slug  
 
 # Pages Path
 defaults:
