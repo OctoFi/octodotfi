@@ -17,27 +17,29 @@ description: Eight members were elected as <span class="text-span post__content"
 <div class="container animate">
   <div class="row">
     {% for member in site.team reversed %}
-      <article class="project col col-4 col-d-6 col-t-12">
-        <div class="project__content">
-		  {% if member.external_url %}
-			<a href="{{ member.external_url }}" class="project__image" target="_blank">
-			{% else %}
-			<a href="{{ member.url }}" class="project__image">
-			{% endif %}
-            <img class="lazy" data-src="{{ member.image }}" alt="{{ member.title }}">
-          </a>
-          <div class="project__info">
-            <div class="project__info-wrap">
-              <h4 class="project__title">{{ member.title }}</h4>
-            </div>
-            <div class="project__info-wrap">
-              {% if member.subtitle %}
-                <div class="project__subtitle">{{ member.subtitle }}</div>
-              {% endif %}
+      {% if member.active %}
+        <article class="project col col-4 col-d-6 col-t-12">
+          <div class="project__content">
+        {% if member.external_url %}
+        <a href="{{ member.external_url }}" class="project__image" target="_blank">
+        {% else %}
+        <a href="{{ member.url }}" class="project__image">
+        {% endif %}
+              <img class="lazy" data-src="{{ member.image }}" alt="{{ member.title }}">
+            </a>
+            <div class="project__info">
+              <div class="project__info-wrap">
+                <h4 class="project__title">{{ member.title }}</h4>
+              </div>
+              <div class="project__info-wrap">
+                {% if member.subtitle %}
+                  <div class="project__subtitle">{{ member.subtitle }}</div>
+                {% endif %}
+              </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
