@@ -8,7 +8,7 @@ If you discover a bug, [report it here](https://github.com/octofi/octodotfi/issu
 
 ## Contributing
 
-If you'd like to help, check out our [Contributing Guide](CONTRIBUTING.md).
+If you'd like to help, check out our [Contributing Guide](./contributing.md).
 
 ## Attribution
 
