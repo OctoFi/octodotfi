@@ -2,6 +2,7 @@
 layout: post
 title: Development Recap For No CEX November
 date: 2020-12-02 02:00:00
+author: Dr. Octavius
 image: '/images/22.jpg'
 ---
 

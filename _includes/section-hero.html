@@ -1,0 +1,27 @@
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          <div class="hero__left">
+            <div style="font-size: 0.6em" class="post__content">
+                <a href="https://messari.io/asset/octofi" target="_blank">Verified by <img src="/images/tcr_badge.svg" width="22px"> Messari</a> and <a href="https://gnosis-safe.io/app/#/safes/0xcCF04146399214EB7813Ab45B50d004c5b254784/balances" target="_blank">Secured by <img src="/images/gnosis.png" width="18px"> Gnosis Safe</a>.</div>
+            <h1 class="hero__name">{{ site.data.settings.hero.title }}</h1>
+            <p class="hero__bio">{{ site.data.settings.hero.bio }}</p>
+            <a class="button button--small" style="margin-top: 28px; margin-right: 14px;"
+              href="{{ site.data.settings.cta__button__url }}" target="_blank">
+              {{ site.data.settings.hero.button__text }}
+            </a>
+            <a href="{{ site.data.settings.hero.small__button__url }}" class="hero__btn">{{
+              site.data.settings.hero.small__button__text }}</a>
+          </div>
+          <div class="hero__right">
+            <div class="">
+              <img class="lazy" data-src="{{ site.data.settings.hero.image }}" alt="{{ site.data.settings.hero.imageAlt }}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -2,6 +2,7 @@
 layout: post
 title: Stake OCTO-ETH for LP rewards!
 date: 2021-02-08 00:08:08
+author: Dr. Octavius
 image: '/images/34.jpg'
 ---
 

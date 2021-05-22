@@ -1,3 +1,9 @@
+{% for member in site.team %}
+  {% if member.title == post.author %}
+    {% assign author = member %}
+  {% endif %}
+{% endfor %}
+
 <div class="article col col-4 col-d-6 col-t-12">
   <div class="article__inner">
 
@@ -28,11 +34,11 @@
       </p>
 
       <div class="article__meta">
-        <a href="{{site.baseurl}}/about/" class="article__author-image">
-          <img src="{{site.data.settings.author.avatar}}" alt="{{site.data.settings.author.name}}">
+        <a href="{{author.external_url}}" class="article__author-image">
+          <img src="{{author.image}}" alt="{{author.title}}">
         </a>
         <div class="article-info">
-          <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.data.settings.author.name}}</a>
+          <a href="{{author.external_url}}" class="article__author-link">{{author.title}}</a>
           <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
         </div>
       </div>

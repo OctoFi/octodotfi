@@ -2,7 +2,7 @@
 layout: post
 title: How can I find the best NFTs?
 date: 2021-04-07 01:08:08 
-author: doc
+author: Dr. Octavius
 image: '/images/nft-2.jpg'
 ---
 

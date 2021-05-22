@@ -2,6 +2,7 @@
 layout: post
 title: Tentacles, the War on Rugs, and our biggest Aquafarm release yet!
 date: 2020-10-19 00:00:00
+author: Dr. Octavius
 image: '/images/20.jpg'
 ---
 

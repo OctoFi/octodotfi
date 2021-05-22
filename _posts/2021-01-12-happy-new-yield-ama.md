@@ -2,6 +2,7 @@
 layout: post
 title: Happy New Yield AMA
 date: 2021-01-12 00:08:08
+author: Dr. Octavius
 image: '/images/29.jpg'
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: OCTO-USDC Liquidity Provider rewards are back!
 date: 2021-04-05 08:08:08 
-author: doc
+author: Dr. Octavius
 image: '/images/40.jpg'
 ---
 

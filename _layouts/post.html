@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% for member in site.team %}
+  {% if member.title == page.author %}
+    {% assign author = member %}
+  {% endif %}
+{% endfor %}
+
 <div class="container">
   <div class="post-head">
     {% if page.tags.size >= 1 %}
@@ -33,11 +39,11 @@ layout: default
 
     <div class="post__info">
       <div class="post__author">
-        <a href="{{site.baseurl}}/about/" class="post__author-image">
-          <img class="lazy" data-src="{{site.data.settings.author.avatar}}" alt="{{site.data.settings.author.name}}">
+        <a href="{{author.external_url}}" class="post__author-image">
+          <img class="lazy" data-src="{{author.image}}" alt="{{author.title}}">
         </a>
         <div class="post__author-info">
-          <a href="{{site.baseurl}}/about/" class="post__author-link">{{site.data.settings.author.name}}</a>
+          <a href="{{author.external_url}}" class="post__author-link">{{author.title}}</a>
           <span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></span>
         </div>
       </div>

@@ -2,7 +2,7 @@
 layout: post
 title: What if we wrapped everything into a browser extentacle?
 date: 2021-04-28 00:00:00 
-author: doc
+author: Dr. Octavius
 image: '/images/41.jpg'
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Bonding Curve Sale Details for OCTO Governance Token
 date: 2020-08-22 00:00:00
+author: Dr. Octavius
 image: '/images/3.jpg'
 ---
 

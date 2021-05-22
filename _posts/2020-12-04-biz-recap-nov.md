@@ -2,6 +2,7 @@
 layout: post
 title: So Much Happened During Our Month Without CEX
 date: 2020-12-04 00:00:00
+author: Dr. Octavius
 image: '/images/20.jpg'
 ---
 

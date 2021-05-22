@@ -2,7 +2,7 @@
 layout: post
 title: How's Moving Cross-chain? Finance in the Future!
 date: 2021-05-04 00:00:00 
-author: doc
+author: Dr. Octavius
 image: '/images/cross-chain.jpg'
 ---
 
