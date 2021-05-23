@@ -2,7 +2,7 @@
 layout: post
 title: Why You Can't Find Our Community On This Website
 date: 2020-08-30 00:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/6.jpg'
 ---
 

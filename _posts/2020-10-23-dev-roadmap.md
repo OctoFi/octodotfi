@@ -2,7 +2,7 @@
 layout: post
 title: Deep Dive into the Future, our Development Roadmap is here!
 date: 2020-10-23 02:55:00
-author: Dr. Octavius
+author: doc
 image: '/images/21.jpg'
 ---
 

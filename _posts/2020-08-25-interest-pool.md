@@ -2,7 +2,7 @@
 layout: post
 title: Interest Pool for Earning Yield with Octokens
 date: 2020-08-25 00:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/4.jpg'
 ---
 

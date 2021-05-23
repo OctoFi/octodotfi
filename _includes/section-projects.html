@@ -19,11 +19,11 @@
             {% for project in site.projects reversed limit:6 %}
             <article class="project col col-4 col-d-6 col-t-12">
               <div class="project__content">
-				{% if project.external_url %}
-				<a href="{{ project.external_url }}" class="project__image" target="_blank">
-				{% else %}
+                {% if project.external_url %}
+                <a href="{{ project.external_url }}" class="project__image" target="_blank">
+                {% else %}
                 <a href="{{ project.url }}" class="project__image">
-				{% endif %}
+				        {% endif %}
                   <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
                 </a>
                 <div class="project__info">

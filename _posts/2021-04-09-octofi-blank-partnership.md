@@ -2,7 +2,7 @@
 layout: post
 title: OCTO x BLANK partnership&#58; The Tentacult grows bigger! 
 date: 2021-04-09 01:08:08 
-author: Dr. Octavius
+author: doc
 image: '/images/octofi-blank.jpg'
 ---
 

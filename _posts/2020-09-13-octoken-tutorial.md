@@ -2,7 +2,7 @@
 layout: post
 title: How To Buy $OCTO During Bonding Curve
 date: 2020-09-13 11:30:00
-author: Dr. Octavius
+author: doc
 image: '/images/11.jpg'
 ---
 

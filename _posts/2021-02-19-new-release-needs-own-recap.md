@@ -2,7 +2,7 @@
 layout: post
 title: This new release needs its own recaptopus
 date: 2021-02-19 00:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/36.jpg'
 ---
 

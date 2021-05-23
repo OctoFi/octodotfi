@@ -1,6 +1,8 @@
+{% assign author = site.data.people[post.author] %}
+
 {% for member in site.team %}
-  {% if member.title == post.author %}
-    {% assign author = member %}
+  {% if post.author == member.person %}
+    {% assign authorUrl = member.url %}
   {% endif %}
 {% endfor %}
 
@@ -34,11 +36,21 @@
       </p>
 
       <div class="article__meta">
-        <a href="{{author.external_url}}" class="article__author-image">
+        {% if author.external_url %}
+        <a href="{{ author.external_url }}" class="article__author-image" target="_blank">
+        {% else %}
+        <a href="{{ authorUrl }}" class="article__author-image">
+        {% endif %}
           <img src="{{author.image}}" alt="{{author.title}}">
         </a>
         <div class="article-info">
-          <a href="{{author.external_url}}" class="article__author-link">{{author.title}}</a>
+          {% if author.external_url %}
+          <a href="{{ author.external_url }}" class="article__author-link" target="_blank">
+          {% else %}
+          <a href="{{ authorUrl }}" class="article__author-link">
+          {% endif %}
+            {{author.title}}
+          </a>
           <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span>
         </div>
       </div>

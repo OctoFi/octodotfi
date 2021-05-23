@@ -1,0 +1,71 @@
+doc:
+  title: Dr. Octavius
+  subtitle: Founder & Biz Advisor
+  image: '/images/team/octavius.jpg'
+  external_url: https://twitter.com/octofinance
+
+og:
+  title: Mr. OG
+  subtitle: Founder & Dev Advisor
+  image: '/images/team/og.jpg'
+  external_url: https://twitter.com/octofinance
+
+yikai:
+  title: Kevin Feng
+  subtitle: Expert Advisor
+  image: '/images/team/yikai.jpg'
+  external_url: https://twitter.com/kfeng027
+
+cfow:
+  title: CFow
+  subtitle: Community Secretary
+  image: '/images/team/cfow.jpg'
+  external_url: https://twitter.com/cfowtweet
+
+ak88:
+  title: AK88
+  subtitle: Marketing & PR
+  image: '/images/team/ak88.jpg'
+  external_url: https://twitter.com/octoAK88
+
+cameron:
+  title: Cameron
+  subtitle: Social Media Influence
+  image: '/images/team/cameron.jpg'
+  external_url: https://twitter.com/Crypto_Daily
+
+darnboo:
+  title: Darnboo
+  subtitle: Software Development
+  image: '/images/team/darnboo.jpg'
+  external_url: https://twitter.com/darnboo
+
+ma:
+  title: MA
+  subtitle: Visual Arts & Design
+  image: '/images/team/ma.jpg'
+  external_url: https://twitter.com/MaOcto
+
+marco:
+  title: Marco
+  subtitle: Marketing & PR
+  image: '/images/team/marco.jpg'
+  external_url: https://twitter.com/TMod_Marco
+
+nathan:
+  title: Nathan
+  subtitle: Software Development
+  image: '/images/team/nathan.jpg'
+  external_url: https://twitter.com/natejessen
+
+rn03:
+  title: RN03xx
+  subtitle: Marketing & PR
+  image: '/images/team/rn03.jpg'
+  external_url: https://twitter.com/_RN03xx_
+
+toast:
+  title: Steven
+  subtitle: Project Management
+  image: '/images/team/toast.jpg'
+  external_url: https://twitter.com/ToastOfCT

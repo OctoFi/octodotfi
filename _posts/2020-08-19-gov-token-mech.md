@@ -2,7 +2,7 @@
 layout: post
 title: Governance Token Mechanisms for Octoken Holders
 date: 2020-08-19 00:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/2.jpg'
 ---
 

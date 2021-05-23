@@ -2,7 +2,7 @@
 layout: post
 title: How To Use Snapshot & Create Proposals
 date: 2020-09-13 23:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/12.jpg'
 ---
 

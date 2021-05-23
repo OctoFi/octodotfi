@@ -2,7 +2,7 @@
 layout: post
 title: Aquarium 003 (Transparency Report)
 date: 2020-10-10 00:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/10.jpg'
 ---
 

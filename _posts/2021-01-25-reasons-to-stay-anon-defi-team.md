@@ -2,7 +2,7 @@
 layout: post
 title: Reasons to stay anonymous as a DeFi dev team (anonymoctopus)
 date: 2021-01-25 00:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/31.jpg'
 ---
 

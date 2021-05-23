@@ -2,7 +2,7 @@
 layout: post
 title: Development Recap For Dexember
 date: 2020-12-31 02:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/22.jpg'
 ---
 

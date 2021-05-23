@@ -2,7 +2,7 @@
 layout: post
 title: An Early deXmas Gift and Our First Ever Fee Distribution
 date: 2020-12-16 08:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/24.jpg'
 ---
 
