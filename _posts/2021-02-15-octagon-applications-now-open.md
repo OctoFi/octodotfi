@@ -2,7 +2,7 @@
 layout: post
 title: The Octagon Applications NOW OPEN
 date: 2021-02-15 00:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/35.jpg'
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Stockings Were Stuffed Full This Festive Season
 date: 2020-12-29 00:00:00
-author: Dr. Octavius
+author: doc
 image: '/images/27.jpg'
 ---
 

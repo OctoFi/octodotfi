@@ -2,7 +2,7 @@
 layout: post
 title: OctoFi is certified, we just got our Messari verification badge!
 date: 2021-03-12 00:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/39.jpg'
 ---
 

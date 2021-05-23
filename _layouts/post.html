@@ -2,9 +2,11 @@
 layout: default
 ---
 
+{% assign author = site.data.people[page.author] %}
+
 {% for member in site.team %}
-  {% if member.title == page.author %}
-    {% assign author = member %}
+  {% if page.author == member.person %}
+    {% assign authorUrl = member.url %}
   {% endif %}
 {% endfor %}
 
@@ -39,11 +41,21 @@ layout: default
 
     <div class="post__info">
       <div class="post__author">
-        <a href="{{author.external_url}}" class="post__author-image">
+        {% if author.external_url %}
+        <a href="{{ author.external_url }}" class="post__author-image" target="_blank">
+        {% else %}
+        <a href="{{ authorUrl }}" class="post__author-image">
+        {% endif %}
           <img class="lazy" data-src="{{author.image}}" alt="{{author.title}}">
         </a>
         <div class="post__author-info">
-          <a href="{{author.external_url}}" class="post__author-link">{{author.title}}</a>
+          {% if author.external_url %}
+          <a href="{{ author.external_url }}" class="post__author-link" target="_blank">
+          {% else %}
+          <a href="{{ authorUrl }}" class="post__author-link">
+          {% endif %}
+            {{author.title}}
+          </a>
           <span class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></span>
         </div>
       </div>

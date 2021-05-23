@@ -17,32 +17,30 @@
 
           <div class="row">
             {% for member in site.team reversed limit:12 %}
-              {% if member.active %}
-                <article class="project col col-3 col-d-8 col-t-12">
-                  <div class="project__content">
-                    {% if member.external_url %}
-                    <a href="{{ member.external_url }}" class="project__image" target="_blank">
-                    {% else %}
-                    <a href="{{ member.url }}" class="project__image">
-                    {% endif %}
-                      <img class="lazy" data-src="{{ member.image }}" alt="{{ member.title }}">
-                    </a>
-                    <div class="project__info">
+              {% assign person = site.data.people[member.person] %}
+              <article class="project col col-3 col-d-8 col-t-12">
+                <div class="project__content">
+                  {% if person.external_url %}
+                  <a href="{{ person.external_url }}" class="project__image" target="_blank">
+                  {% else %}
+                  <a href="{{ member.url }}" class="project__image">
+                  {% endif %}
+                    <img class="lazy" data-src="{{ person.image }}" alt="{{ person.title }}">
+                  </a>
+                  <div class="project__info">
+                  <div class="project__info-wrap">
+                      <h3 class="project__title">{{ person.title }}</h3>
+                    </div>
                     <div class="project__info-wrap">
-                        <h3 class="project__title">{{ member.title }}</h3>
-                      </div>
-                      <div class="project__info-wrap">
-                        {% if member.subtitle %}
-                          <div class="project__subtitle">{{ member.subtitle }}</div>
-                        {% endif %}
-                      </div>
+                      {% if person.subtitle %}
+                        <div class="project__subtitle">{{ person.subtitle }}</div>
+                      {% endif %}
                     </div>
                   </div>
-                </article>
-              {% endif %}
+                </div>
+              </article>
             {% endfor %}
           </div>
-
         </div>
       </div>
     </div>

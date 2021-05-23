@@ -2,7 +2,7 @@
 layout: post
 title: Release the INKubator
 date: 2021-04-15 00:00:00 
-author: Dr. Octavius
+author: doc
 image: '/images/war-on-rugs.jpg'
 ---
 

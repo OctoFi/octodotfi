@@ -2,7 +2,7 @@
 layout: post
 title: To Infinity and Buy OCTO!
 date: 2020-12-24 08:08:08
-author: Dr. Octavius
+author: doc
 image: '/images/25.jpg'
 ---
 
