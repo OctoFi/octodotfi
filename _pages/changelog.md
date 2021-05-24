@@ -4,6 +4,14 @@ title: Changelog
 image:
 ---
 
+## 04.1.0 (May 24, 2021)
+### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
+- Update color theme
+- UI updates to modals, cards, tables
+- Fix duplicate data in homepage banner
+- Fix errors causing Invest Pools to crash
+- Fix layout and broken images for Fiat off ramp
+
 ## 04.0.0 (May 05, 2021)
 ### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
 - Addressed findings from Certik and Bramah audits
