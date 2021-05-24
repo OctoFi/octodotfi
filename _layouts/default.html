@@ -34,11 +34,11 @@
 
   {% include footer.html %}
 
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
+  <script src="{{ site.baseurl }}/js/scripts.js?{{ site.time | date: '%s%N' }}"></script>
   <script>
     var itype_text = [{{site.data.settings.mailchimp__settings.mailchimp__text}}];
   </script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+  <script src="{{ site.baseurl }}/js/common.js?{{ site.time | date: '%s%N' }}"></script>
 </body>
 
 </html>
