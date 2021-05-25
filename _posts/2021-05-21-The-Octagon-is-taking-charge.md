@@ -1,12 +1,10 @@
 ---
 layout: post
-title: 'The Octagon is taking charge: Next steps for OctoFi'
+title: 'The Octagon is taking charge: Next Steps'
 date: 2021-05-21 00:00:00 
 author: marco
 image: '/images/35.jpg'
 ---
-
-## The Octagon is taking charge: What are the next steps for OctoFi?
 
 *This post is co-written by several members of the Octagon, and comes on behalf of the entire Octagon. We aim to restore trust and to show you how we're handling the cards we've been dealt. Our team and our community will simply not fold!*
 
