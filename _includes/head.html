@@ -31,4 +31,14 @@
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
+  <script>
+    // Clear serviceWorker cache from old dApp.
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
 </head>
