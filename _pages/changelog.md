@@ -4,13 +4,26 @@ title: Changelog
 image:
 ---
 
-## 04.1.0 (May 24, 2021)
+## 4.2.0 (June 19, 2021)
+### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
+- Move pending transactions to the Account modal
+- Create Settings Dropdown
+- Improvements to the Navigation and Header
+- Open Account modal when user clicks Account Address
+- General design improvements
+- Bug fixes
+
+More info for this release can be found in the [v4.2.0 Milestones](https://github.com/OctoFi/octofi-app-aquafarm/milestone/2?closed=1)
+
+## 4.1.0 (May 24, 2021)
 ### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
 - Update color theme
 - UI updates to modals, cards, tables
 - Fix duplicate data in homepage banner
 - Fix errors causing Invest Pools to crash
 - Fix layout and broken images for Fiat off ramp
+
+More info for this release can be found in the [v4.1.0 Milestones](https://github.com/OctoFi/octofi-app-aquafarm/milestone/1?closed=1)
 
 ## 04.0.0 (May 05, 2021)
 ### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
