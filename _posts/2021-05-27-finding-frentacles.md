@@ -6,10 +6,6 @@ author: marco
 image: '/images/photo_2021-05-27 20.50.50.jpeg'
 ---
 
-## Finding Frentacles
-
-Dear Frentacles,
-
 This is the Octagon with a new blog post. As communicated in [our previous blog post](https://octo.fi/blog/development-and-marketing-priorities), in which we highlighted our current development priorities, we mentioned we'd enable the community to vote for new Octagon members.
 
 After strong consideration, we've decided to change things a bit. In a way we feel benefits the community and project. Here's the why & how:
