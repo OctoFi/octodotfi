@@ -4,30 +4,34 @@ title: Development Roadmap
 image:
 ---
 
-### 🚧 IN PROGRESS Q2 2021
-
-- [ ] Browser extension wallet with cashbacks 
-- [ ] More Aggregator options
+### 🚧 IN PROGRESS Q3 2021
+- [ ] Project transitions to being run by the Octagon
+- [ ] Fee Distribution for May and June
+- [ ] dApp UI/UX improvements
+- [ ] Bug fixes and performance enhancements
 
 ### ⏳ COMING SOON Q3 2021
-
-- [ ] Manage addresses offline
+- [ ] Improvements to Dashboard and Wallet
 - [ ] Add platform data: Total Volume, TVL, Total TXs, Fees accumulated, Platform transparency dashboard
-- [ ] NFT Launchpad
+- [ ] Improvements for CrossChain trades/swaps
 
 ### ⏳ COMING SOON Q4 2021
 
-- [ ] Improvements for CrossChain trades/swaps 
 - [ ] Hopefully L2 options like Optimism if live
+- [ ] Manage addresses offline
 - [ ] OTC On-Chain Swap Solution (Escrow)
+- [ ] Browser extension wallet with cashbacks
 
-***
+---
 
-### ✅ COMPLETE Q1 April 2021
+### ✅ COMPLETE Q2 May 2021
+- [x] Founders hand over the keys to the Octagon
+
+### ✅ COMPLETE Q2 April 2021
 
 - [x] Add crypto off-ramp Gold / Cars / Watches / Travel / Charity Donation / Fiat / P2P
 - [x] CrossChain Swap and Bridges
-- [x] Multi-chain connectivity 
+- [x] Multi-chain connectivity
 
 ### ✅ COMPLETE Q1 \#Marching 2021
 
@@ -44,9 +48,9 @@ image:
 - [x] Android App
 - [x] Make all pages visible without connecting to a wallet (CEX feeling, look before try)
 - [x] Testing and go-live spot trading (limit + market)
-- [x] APY shown alongside each pool 
-- [x] Adding multi-language support 
-- [x] Distribution of platform fees 
+- [x] APY shown alongside each pool
+- [x] Adding multi-language support
+- [x] Distribution of platform fees
 - [x] Preparation of spot trading section for OVM (Optimistic Rollup L2)
 
 ### ✅ COMPLETE Q1 \#HappyNewYield 2021
@@ -95,4 +99,4 @@ image:
 - [x] Dashboard to track your portfolio
 - [x] And lots of other small things…
 
-***
+---
