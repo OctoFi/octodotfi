@@ -54,14 +54,19 @@ Furthermore, in March 2021 a council of eight members were elected to steward Oc
 
 | Name | Position | Telegram | Twitter |
 |-|-|-|-|
-| Cameron | Social Media Influence | [@Cameron_CryptoDaily](https://t.me/Cameron_CryptoDaily) | [@Crypto_Daily](https://twitter.com/Crypto_Daily) |
-| RN03xx | Marketing & PR | [@rn03xx](https://t.me/rn03xx) | [@\_RN03xx\_](https://twitter.com/_RN03xx_) |
 | Steven | Project Management | [@Suk4b1y4t](https://t.me/Suk4b1y4t) | [@ToastOfCT](https://twitter.com/ToastOfCT) |
 | AK88 | Marketing & PR | [@octoAK88](https://t.me/octoAK88) | [@octoAK88](https://twitter.com/octoAK88) |
 | Marco | Marketing & PR | [@TMod_Marco](https://t.me/TMod_Marco) | [@TMod_Marco](https://twitter.com/TMod_Marco) |
 | Nathan | Software Development | [@nathanjessen](https://t.me/nathanjessen) | [@natejessen](https://twitter.com/natejessen) |
 | Darnboo | Software Development | [@BizarroSephiroth](https://t.me/BizarroSephiroth) | [@darnboo](https://twitter.com/darnboo) |
 | MA | Visual Arts & Design | [@M_A_OctoWave](https://t.me/M_A_OctoWave) | [@MaOcto](https://twitter.com/MaOcto) |
+| Cameron * | Social Media Influence | [@Cameron_CryptoDaily](https://t.me/Cameron_CryptoDaily) | [@Crypto_Daily](https://twitter.com/Crypto_Daily) |
+| RN03xx * | Marketing & PR | [@rn03xx](https://t.me/rn03xx) | [@\_RN03xx\_](https://twitter.com/_RN03xx_) |
+| CFow ** | Community Secretary | [@CFowTelegram](https://t.me/CFowTelegram) | [@cfowtweet](https://twitter.com/cfowtweet) |
+
+**May 2021: Cameron and RN03xx have left the Octagon and their positions will be filled.*
+
+***June 2021: CFow has joined the Octagon.*
 
 ⚠️ WARNING: No OctoFi team member will ever DM you first, or request access to your funds, or that you share private keys or seed phrases. Anyone claiming such a thing is an impersonator and should be reported immediately.
  
