@@ -18,6 +18,7 @@ description: Eight members were elected as <span class="text-span post__content"
   <div class="row">
     {% for member in site.team reversed %}
       {% assign person = site.data.people[member.person] %}
+      {% if person.team %}
       <article class="project col col-4 col-d-6 col-t-12">
         <div class="project__content">
           {% if person.external_url %}
@@ -39,6 +40,7 @@ description: Eight members were elected as <span class="text-span post__content"
           </div>
         </div>
       </article>
+      {% endif %}
     {% endfor %}
   </div>
 </div>

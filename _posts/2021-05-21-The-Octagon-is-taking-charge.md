@@ -2,7 +2,7 @@
 layout: post
 title: 'The Octagon is taking charge: Next Steps'
 date: 2021-05-21 00:00:00 
-author: marco
+author: octagon
 image: '/images/35.jpg'
 ---
 
