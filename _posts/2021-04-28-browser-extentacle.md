@@ -6,6 +6,8 @@ author: doc
 image: '/images/41.jpg'
 ---
 
+*Update June 20, 2021: Development of the Browser Extension was placed on hold. Any extension claiming to be a part of OctoFi is a scam.*
+
 OctoFi is misunderstood...
 
 Most people think we compete with other DeFi and NFT projects. When in actual fact, partnering with them (ALL OF THEM) makes much more sense. At the end of the day, we just want to make crypto easier and more rewarding.
