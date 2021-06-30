@@ -27,6 +27,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - CNAME
 
 # Collections
 collections:
