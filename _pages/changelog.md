@@ -4,6 +4,22 @@ title: Changelog
 image:
 ---
 
+## 4.3.0 (July 14, 2021)
+### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
+- Fix Governance page from crashing
+- Remove Wrong Network gate to allow other networks
+- Simplified Navigation
+- Update layout of footer
+- Improve Dashboard layout and combine with Wallet page
+- Combine components on Dashboard for more flexibility
+- Consolidate Token Sets pages
+- Update currency dropdown to indicate when a change occurs. Display chosen Currency
+- Design updates for Dashboard, History, Exchange, Uniswap, NFT, Onramp
+- Misc Bug fixes
+- Initial performance updates for Currency lists and Governance spaces
+
+More info for this release can be found in the [v4.3.0 Milestones](https://github.com/OctoFi/octofi-app-aquafarm/milestone/3?closed=1)
+
 ## 4.2.0 (June 19, 2021)
 ### OctoFi DApp ([app.octo.fi](https://app.octo.fi))
 - Move pending transactions to the Account modal
