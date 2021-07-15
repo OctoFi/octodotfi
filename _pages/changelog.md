@@ -17,6 +17,7 @@ image:
 - Design updates for Dashboard, History, Exchange, Uniswap, NFT, Onramp
 - Misc Bug fixes
 - Initial performance updates for Currency lists and Governance spaces
+- Unregister Service Worker causing blank pages after site updates
 
 More info for this release can be found in the [v4.3.0 Milestones](https://github.com/OctoFi/octofi-app-aquafarm/milestone/3?closed=1)
 

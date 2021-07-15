@@ -23,6 +23,8 @@ menu__settings:
       submenu:
       - external_url: 'https://t.me/OctoFi'
         title: 'Telegram'
+      - external_url: 'https://discord.gg/qY6VXJTMpQ'
+        title: 'Discord'
       - external_url: 'https://den.octo.fi'
         title: 'Forums'
       - external_url: 'https://links.octo.fi'

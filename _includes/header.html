@@ -3,20 +3,19 @@
   <div class="container">
     <div class="row">
       <div class="header__inner">
-
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-          {%if site.data.settings.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.title }}"><span class="text-span"> {{ site.data.settings.title }}</span>
-          {% else %}
+            {%if site.data.settings.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.title }}"><span
+              class="text-span"> {{ site.data.settings.title }}</span>
+            {% else %}
             <span class="text-span">{{ site.data.settings.title }}</span>
-          {% endif %}
+            {% endif %}
           </a>
         </div>
 
         <nav class="main-nav">
           <div class="main-nav__box">
-
             <div class="nav__icon-close">
               <i class="ion ion-md-close"></i>
             </div>
@@ -24,34 +23,38 @@
             <div class="nav__title">Menu</div>
 
             <ul class="nav__list list-reset">
-
-            {% for item in site.data.settings.menu__settings.menu__items %}
+              {% for item in site.data.settings.menu__settings.menu__items %}
               {% if item.submenu %}
               <li class="nav__item dropdown">
-                <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                <span class="nav__link dropdown-toggle">{{ item.title }} <i
+                    class="ion ion-ios-arrow-down arrow-down"></i></span>
                 <div class="dropdown-menu">
                   {% for submenu-item in item.submenu %}
-					{% if submenu-item.external_url %}
-					<a href="{{ submenu-item.external_url }}" class="nav__link" target="_blank">{{submenu-item.title}}</a>
-					{% else %}
-                    <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
-                    {% endif %}
+                  {% if submenu-item.external_url %}
+                  <a href="{{ submenu-item.external_url }}" class="nav__link" target="_blank">{{submenu-item.title}}</a>
+                  {% else %}
+                  <a href="{{ submenu-item.url }}"
+                    class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                  {% endif %}
                   {% endfor %}
                 </div>
               </li>
-
               {% else %}
               <li class="nav__item">
-                <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
+                <a href="{{ item.url | relative_url }}"
+                  class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
               </li>
               {% endif %}
-            {% endfor %}
+              {% endfor %}
 
-            <li class="nav__item">
-              <a href="https://www.producthunt.com/posts/octofi-1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-octofi-1" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290006&theme=light" alt="OctoFi - Crypto cashback dApp for DeFi and NFT marketplaces | Product Hunt" style="width: 180px; height: 40px;" width="180" height="40" /></a>
-              <!--<a href="{{ site.data.settings.cta__button__url }}" class="button button--small" target="_blank">{{ site.data.settings.cta__button__text }}</a>-->
-            </li>
-
+              <li class="nav__item">
+                <a href="https://www.producthunt.com/posts/octofi-1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-octofi-1"
+                  target="_blank"><img
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290006&theme=light"
+                    alt="OctoFi - Crypto cashback dApp for DeFi and NFT marketplaces | Product Hunt"
+                    style="width: 180px; height: 40px;" width="180" height="40" /></a>
+                <!--<a href="{{ site.data.settings.cta__button__url }}" class="button button--small" target="_blank">{{ site.data.settings.cta__button__text }}</a>-->
+              </li>
             </ul>
           </div>
         </nav>
@@ -59,7 +62,6 @@
         <div class="nav-button">
           <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
         </div>
-
       </div>
     </div>
   </div>
