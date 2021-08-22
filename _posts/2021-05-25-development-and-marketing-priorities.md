@@ -2,8 +2,8 @@
 layout: post
 title: Development and Marketing Priorities Q2-Q3
 date: 2021-05-25 00:00:00
-author: nathan
-image: '/images/21.jpg'
+author: octagon
+image: "/images/21.jpg"
 ---
 
 Hi there Frentacles!
@@ -51,7 +51,7 @@ These updates focused on improving the look of the dApp and fixing some of the b
 
 **Fee Distributions**
 
-- Add snapshot details to the dashboard (how to participate, countdown timer, fees accrued, fees distributed, projected earnings) *100% of all platform fees are shared among OCTO token holders.*
+- Add snapshot details to the dashboard (how to participate, countdown timer, fees accrued, fees distributed, projected earnings) _100% of all platform fees are shared among OCTO token holders._
 - Explore BSC/Polygon for fee distributions to allow us to distribute fees to those users with small earnings, or otherwise enable them to accrue their fees to compound them.
 
 **Portfolio Management**
