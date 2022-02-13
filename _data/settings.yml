@@ -65,7 +65,7 @@ projects__settings:
 
 team__settings:
   team__title: The <span class="text-span">Octagon</span> # Add a 'text-span' class to highlight text.
-  team__description: Eight members were elected as <span class="text-span post__content"><a href="https://gnosis-safe.io/app/#/safes/0xcCF04146399214EB7813Ab45B50d004c5b254784/balances" target="_blank">treasury multisig</a></span> key holders. An expert advisor, community secretary, and co-founders, OG and Octavius support them.
+  team__description: Eight members were originally elected as <span class="text-span post__content"><a href="https://gnosis-safe.io/app/#/safes/0xcCF04146399214EB7813Ab45B50d004c5b254784/balances" target="_blank">treasury multisig</a></span> key holders. Several positions are open and ready to be filled.
   
   
 
